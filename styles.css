@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Jersey 25';
+    display: flex;
+
+    background-color: rgba(250, 234, 231, 1);
+    
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+
+
+.aa{
+    font-size: 32px;
+    background-color: rgba(150, 141, 110, 1);
+    color: rgba(250, 234, 231, 1);
+    padding: 3px;
+    
+    
+}
+
+#hh{
+    margin-left: 80px;
+}
+
+.logo{
+    position: absolute;
+    height: 38px;
+    background-color: rgba(150, 141, 110, 1);
+    padding-left: 4px;
+}
+
+
+.purp1{
+    background-color: rgba(106, 77, 98, 1);
+    width: 1514px;
+    padding: 2px;
+}
+
+
+.footer-main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 32px;
+    background-image: url("ground.PNG");
+    color: rgba(250, 234, 231, 1);
+    padding-top: 300px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 1518px;
+    height: 523px;
+    background-repeat: no-repeat;
+    font-size: 32px;
+}
+
+#f {
+    margin-bottom: 30px;
+}
+
+.part1{ 
+
+    background-image: url(ack.png) ;
+    background-repeat: no-repeat;
+    height: max-content;
+    
+   
+}
+
+.wooh{
+    width: 1412px;
+    height: 640px;
+    margin-left: 40px;
+
+}
+
+
+
+.pink{
+    font-size: 40px;
+    color: rgba(185, 141, 142, 1);
+    background-color: rgba(185, 141, 142, 1);
+    width: 1519px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    color: rgba(250, 234, 231, 1);
+}
+
+.o{
+    background-color: rgba(233, 204, 203, 1);
+    width: 300px;
+    color: rgba(250, 234, 231, 1);
+    font-size: 64px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.abme{
+    background-image: url(mm.png);
+    background-repeat: no-repeat;
+
+}
+
+.ugh{
+    flex-direction: row;
+    
+
+}
+
+.abmetitle{
+    font-size: 96px;
+    color: rgba(106, 77, 98, 1);
+    margin-left: 230px;
+}
+
+.abmetxt{
+    display: flex;
+   
+
+}
+.abmetxt .text{
+    color: rgba(133, 91, 119, 1);
+    font-size: 42px;
+    background-color: rgba(233, 204, 203, 1);
+    border-radius: 1.5rem;
+    width: fit-content;
+    height: 520px;
+    padding: 1.5rem;
+    margin-left: 160px;
+
+
+}
+.abmetxt .jajaja{
+    position: absolute;
+    width: 546.17px;
+    height: 1228.82;
+    margin-top:  100px;
+    z-index: 2;
+    transform: translateX(530px) translateY(-30px);
+    transform: rotate(34rem)
+}
+
+
+.greenab{
+    font-size: 10px;
+    background-color: rgba(150, 141, 110, 1);
+    padding: 3px;
+
+}
+
+
+
+.cv{
+    background-color:rgba(133, 91, 119, 1);
+    width: 435px;
+    height: 41;
+    color: rgba(250, 234, 231, 1);
+    font-size: 42px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 165px;
+    
+}
+
+
+.darkpink{
+    background-color: rgba(140, 108, 108, 1);
+}
+
+
+.mywork{
+    font-size: 20px;
+    background-image: url(gahh.PNG);
+    background-repeat: no-repeat;
+    width: 1518px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.myworkbuttons{
+    font-size: 80px;
+    width: 580px;
+    text-align: center;
+    margin-left: 460px;
+    justify-content: space-evenly;
+}
+
+.butt1{
+    background-color: rgba(150, 141, 110, 1);
+    border-radius: 15px;
+    padding: 43px;
+   
+}
+
+.butt2{
+    background-color: rgba(233, 204, 203, 1);
+    border-radius: 15px;
+    padding: 13px;
+    color: rgba(133, 91, 119, 1);
+}
+
+
+
+.butt3{
+    background-color: rgba(185, 141, 142, 1);
+    border-radius: 14px;
+    padding: 13px;
+   
+}
+
+.butt4{
+    background-color: rgba(133, 91, 119, 1);
+    border-radius: 14px;
+    padding: 13px;
+   
+}
+
+#b2{
+  color: rgba(133, 91, 119, 1);
+}
+
+#b3{
+    color:rgba(233, 204, 203, 1);
+}
+
+
+
+
+
+.up{
+     position: fixed;
+     right: 1rem;
+     bottom: 1rem;
+     width: 260px;
+     height: 45px;
+     padding: 5px;
+     border-radius: 15px;
+     background-color: rgba(133, 91, 119, 1);
+     text-align: center;
+     box-shadow: 0 0.25rem 0.5rem 0 rgba(133, 91, 119, 0.512);
+     font-size: 40px;
+     animation: CSSscrollReveal ease-in-out both;
+     animation-timeline: view();
+     animation-range: entry 50% cover 50%;
+}
+
+#boom{
+    color: rgba(250, 234, 231, 1);
+}
+
+
+
+@keyframes CSSscrollReveal{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+
+
+.sotext{
+    background-color: rgba(150, 141, 110, 1);
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    justify-content: space-between ;
+
+    text-align: center;
+    z-index: 1;
+    padding-left: 30px;
+
+}
+
+
+.socials-box {
+    display: flex;
+    justify-content: left;
+}
+
+.socials-box img {
+    margin-right: 20px;
+}
+
+
+#blsktxt{
+    margin-left: 75px;
+}
+
+#yttxt{
+    margin-left: 75px;
+}
+
+#twttxt{
+    margin-left: 55px;
+}
+
+#ttvtxt{
+    margin-left: 20px;
+}
+
+#igtxt{
+    margin-left: 5px;
+}
+
+
+
+
+.sotext {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px;
+  }
+
+
+
+  .pho{
+    height: 80px;
+    width: 80px;
+    /* position: absolute; */
+    background-color: rgba(150, 141, 110, 1);  
+
+}
+
+
+
+
+
+.op{
+    font-size: 20px;
+}
+
+
+.e{
+    font-size: 3px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgba(250, 234, 231, 1);
+}
+
+.annnn{ 
+    font-size: 23px;
+}
