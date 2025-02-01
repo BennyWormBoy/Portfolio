@@ -45,6 +45,7 @@ html{
 
 
 .footer-main { 
+    transform: translateY(2px);
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -62,6 +63,7 @@ html{
     background-repeat: no-repeat;
     font-size: 32px;
 }
+
 
 #f {
     margin-bottom: 30px;
@@ -108,7 +110,14 @@ html{
     border-radius: 15px;
     text-align: center;
     padding: 10px;
+    transition: 0.2s ease-in;
 }
+
+
+.o:hover{
+    transform: scale(1.05);
+}
+
 
 .abme{
     background-image: url(mm.png);
@@ -175,7 +184,11 @@ html{
     text-align: center;
     padding: 10px;
     margin-left: 165px;
-    
+    transition: 0.2s ease-in;
+}
+
+.cv:hover{
+    transform: scale(1.05);
 }
 
 
@@ -286,6 +299,7 @@ html{
 }
 
 
+
 #boom{
     color: rgba(250, 234, 231, 1);
 }
@@ -363,7 +377,7 @@ html{
 
 
 
-  .pho{
+.pho{
     height: 80px;
     width: 80px;
     background-color: rgba(150, 141, 110, 1);  
@@ -583,25 +597,106 @@ a:visited{
 
 #rqswrd:hover{
     transform: scale(1.15);
-    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+    box-shadow: 8px 8px 10px rgba(53, 12, 61, 0.273);
 }
 
 .artrow2:hover{
     transform: scale(1.15);
-    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+    box-shadow: 8px 8px 10px rgba(53, 12, 61, 0.273);
 }
 
 .artrow3:hover{
     transform: scale(1.15);
-    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+    box-shadow: 8px 8px 10px rgba(53, 12, 61, 0.273);
 }
 
 .artrow4:hover{
     transform: scale(1.15);
-    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+    box-shadow: 8px 8px 10px rgba(53, 12, 61, 0.273);
 }
 
 .artrow5:hover{
     transform: scale(1.15);
-    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+    box-shadow: 8px 8px 10px rgba(53, 12, 61, 0.273);
 }
+
+
+
+.contm{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+
+.Cbig{
+    background-color: rgba(133, 91, 119, 1);
+    color: rgba(250, 234, 231, 1);
+    font-size: 64px;
+    width: 527px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+
+.commentsec{
+    background-color: rgba(233, 204, 203, 1);
+    color: rgba(133, 91, 119, 1);
+    width: 587px;
+    height: 603px;
+    border-radius: 15px;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.cm{
+    background-color: rgba(151, 139, 110, 1);
+    color: rgba(250, 234, 231, 1);
+    font-size: 64px;
+    width: 369px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 37px;
+}
+
+.cmbox{
+    background-color: rgba(233, 204, 203, 1);
+    color: rgba(133, 91, 119, 1);
+    text-align: center;
+    width: 446px;
+    height: 307px;
+    border-radius: 15px;
+    font-size: 42px;
+    padding: 2px;
+}
+
+.comm{
+    background-color: rgba(250, 234, 231, 1);
+    width: 553px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 15px;
+    height: 88px;
+
+}
+
+.photitle{
+    color: rgba(133, 91, 119, 1);
+    font-size: 130px;
+    text-align: center;
+}
+
+.pholable{
+    color: rgba(133, 91, 119, 1);
+    font-size: 64px;
+}
+
+
+
