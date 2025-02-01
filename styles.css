@@ -11,6 +11,7 @@ html{
     
     flex-direction: column;
     scroll-behavior: smooth;
+
 }
 
 
@@ -201,13 +202,32 @@ html{
     text-align: center;
     margin-left: 460px;
     justify-content: space-evenly;
+
 }
+
+
 
 .butt1{
     background-color: rgba(150, 141, 110, 1);
     border-radius: 15px;
     padding: 43px;
-   
+    transition: 0.2s ease-in;
+}
+
+.butt1:hover{
+    transform: scale(1.05);
+}
+
+.butt2:hover{
+    transform: scale(1.05);
+}
+
+.butt3:hover{
+    transform: scale(1.05);
+}
+
+.butt4:hover{
+    transform: scale(1.05);
 }
 
 .butt2{
@@ -215,6 +235,7 @@ html{
     border-radius: 15px;
     padding: 13px;
     color: rgba(133, 91, 119, 1);
+    transition: 0.2s ease-in;
 }
 
 
@@ -223,14 +244,14 @@ html{
     background-color: rgba(185, 141, 142, 1);
     border-radius: 14px;
     padding: 13px;
-   
+    transition: 0.2s ease-in;
 }
 
 .butt4{
     background-color: rgba(133, 91, 119, 1);
     border-radius: 14px;
     padding: 13px;
-   
+    transition: 0.2s ease-in;
 }
 
 #b2{
@@ -246,21 +267,24 @@ html{
 
 
 .up{
-     position: fixed;
-     right: 1rem;
-     bottom: 1rem;
-     width: 260px;
-     height: 45px;
-     padding: 5px;
-     border-radius: 15px;
-     background-color: rgba(133, 91, 119, 1);
-     text-align: center;
-     box-shadow: 0 0.25rem 0.5rem 0 rgba(133, 91, 119, 0.512);
-     font-size: 40px;
-     animation: CSSscrollReveal ease-in-out both;
-     animation-timeline: view();
-     animation-range: entry 50% cover 50%;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 260px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(133, 91, 119, 1);
+    text-align: center;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(133, 91, 119, 0.512);
+    font-size: 40px;
+    animation: CSSscrollReveal ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+    z-index: 100;
+
 }
+
 
 #boom{
     color: rgba(250, 234, 231, 1);
@@ -342,7 +366,6 @@ html{
   .pho{
     height: 80px;
     width: 80px;
-    /* position: absolute; */
     background-color: rgba(150, 141, 110, 1);  
 
 }
@@ -394,6 +417,7 @@ a:visited{
     margin-left: 40px;
 }
 
+
 #dn2{
     margin-left: 204px;
 }
@@ -406,30 +430,47 @@ a:visited{
     margin-left: 233px;
 }
 
+#dc{
+    margin-left: 674px;
+}
+
+#dbl{
+    margin-left: 78px;
+}
 
 
 
-#artrow1{
+#artrow{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
 
 
 .artrow1 img{
     height: 330px;
+    border-radius: 4px;
+    transition: 0.3s ease-in;
 }
+
 
 #artrow2{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
+
+
 
 .artrow2 img{
     height: 310px;
+    border-radius: 4px;
+    transition: 0.3s ease-in;
 }
+
 
 
 .dates{
@@ -437,5 +478,133 @@ a:visited{
     font-size: 36px;
 }
 
+#artrow3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.artrow3 img{
+    border-radius: 4px;
+    transition:  0.3s ease-in;
+}
+
+#real9{
+    height: 453px;   
+}
 
 
+#silly{
+    height: 453px;
+
+}
+
+#sqkitty{
+    height: 453px;
+}
+
+
+#ughh{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#artrow4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 12px;
+}
+
+.artrow4 img{
+    border-radius: 4px;
+    transition:  0.3s ease-in;
+}
+
+#rqswrd{
+
+    height: 620px;
+    border-radius: 4px;
+}
+
+
+#cora{
+    height: 290px;
+}
+#bepo{
+    height: 290px;
+}
+#chop{
+    height: 290px;
+}
+
+
+#artrow5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 12px;
+
+}
+
+
+.artrow5 img{
+    border-radius: 4px;
+    height: 290px;
+    transition:  0.3s ease-in;
+    
+}
+
+
+.pt2txt{
+    color: rgba(133, 91, 119, 1);
+    font-size: 32px;
+    margin-left: 40px;
+    padding: 2px;
+}
+
+
+
+
+.artrow1 :hover{
+    transform: scale(1.15);
+
+    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+}
+
+
+
+#rqswrd:hover{
+    transform: scale(1.15);
+
+    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+}
+
+.artrow2:hover{
+    transform: scale(1.15);
+
+    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+}
+
+.artrow3:hover{
+    transform: scale(1.15);
+
+    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+}
+
+.artrow4:hover{
+    transform: scale(1.15);
+
+    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+}
+
+.artrow5:hover{
+    transform: scale(1.15);
+
+    box-shadow: 8px 8px 15px rgba(53, 12, 61, 0.273);
+}
