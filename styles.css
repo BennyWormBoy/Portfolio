@@ -376,3 +376,66 @@ a:visited{
 .annnn{ 
     font-size: 23px;
 }
+
+
+.artitle{
+    color: rgba(133, 91, 119, 1);
+    font-size: 130px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.artxt{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+#dn2{
+    margin-left: 204px;
+}
+
+#d9{
+    margin-left: 314px;
+}
+
+#da{
+    margin-left: 233px;
+}
+
+
+
+
+#artrow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.artrow1 img{
+    height: 330px;
+}
+
+#artrow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.artrow2 img{
+    height: 310px;
+}
+
+
+.dates{
+    color: rgba(133, 91, 119, 1);
+    font-size: 36px;
+}
+
+
+
