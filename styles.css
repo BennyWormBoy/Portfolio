@@ -797,8 +797,8 @@ a:visited{
 }
 
 .b12 img{
-    height: 434px;
-
+    height: 397px;
+    margin-right: 15px;
 }
 
 .camcolum13 .camcolum23 .camcolum33{
@@ -818,4 +818,10 @@ a:visited{
 
 .camcol33 img{
     width: 433px;
+}
+
+
+
+#wl{
+    color:  color: rgba(250, 234, 231, 1);
 }
