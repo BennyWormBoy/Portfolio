@@ -275,6 +275,14 @@ html{
     color:rgba(233, 204, 203, 1);
 }
 
+#b4{
+    color: rgba(250, 234, 231, 1)
+}
+
+#b1{
+    color: rgba(250, 234, 231, 1)
+}
+
 
 
 
@@ -821,5 +829,5 @@ a:visited{
 
 
 #wl{
-    color:  color: rgba(250, 234, 231, 1);
+    color: rgba(250, 234, 231, 1);
 }
