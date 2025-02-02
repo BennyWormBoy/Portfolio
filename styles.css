@@ -421,6 +421,8 @@ a:visited{
     text-align: center;
     display: flex;
     flex-direction: column;
+
+
 }
 
 
@@ -687,11 +689,7 @@ a:visited{
 
 }
 
-.photitle{
-    color: rgba(133, 91, 119, 1);
-    font-size: 130px;
-    text-align: center;
-}
+
 
 .pholable{
     color: rgba(133, 91, 119, 1);
