@@ -283,8 +283,15 @@ html{
     color: rgba(250, 234, 231, 1)
 }
 
+#b1:visited{
+    text-decoration: none;
+    color: rgba(250, 234, 231, 1);
+}
 
-
+#b4{
+    text-decoration: none;
+    color: rgba(250, 234, 231, 1);
+}
 
 
 .up{
