@@ -414,6 +414,7 @@ html{
 
 a:link{
     text-decoration: none;
+    color: rgba(250, 234, 231, 1);
 }
 
 a:hover{
