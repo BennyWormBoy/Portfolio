@@ -738,3 +738,84 @@ a:visited{
 .camcol3 img{
     width: 511px;
 }
+
+
+.phone1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.camcolum12 .camcolum22 .camcolum32{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+.camcol12 img{
+    width: 407px;
+}
+
+.camcol22 img{
+    width: 308px;
+}
+
+.camcol32 img{
+    width: 622px;
+}
+
+.phone2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.resr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.two3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.four3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.a12 img{
+    height: 448px;
+
+}
+
+.b12 img{
+    height: 434px;
+
+}
+
+.camcolum13 .camcolum23 .camcolum33{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+.camcol13 img{
+    width: 415px;
+}
+
+.camcol23 img{
+    width: 461px;
+}
+
+.camcol33 img{
+    width: 433px;
+}
