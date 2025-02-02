@@ -685,15 +685,17 @@ a:visited{
 }
 
 #js{
-    margin-left: 40px;
-
+    margin-left: 34px;
+    margin-right: 34px;
 }
 
 .pt2txt{
     color: rgba(133, 91, 119, 1);
+    background-color: rgba(233, 204, 203, 1);
     font-size: 32px;
-    padding: 2px;
+    padding: 8px;
     text-align: left;
+    border-radius: 8px;
     
 }
 
@@ -993,9 +995,9 @@ a:visited{
 
 .mywrktxt{
     background-color: rgba(233, 204, 203, 1);
-    color: rgba(250, 234, 231, 1);
+    color: rgba(133, 91, 119, 1);
     font-size: 46px;
-    border-radius: 15px;
+    border-radius: 8px;
 }
 
 .k{
